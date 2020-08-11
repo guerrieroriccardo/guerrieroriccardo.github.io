@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Bitter", serif;
+}
+
+.container has-text-centered {
+  color: black;
+}
+
+.btn {
+  background-color: #3381ff;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #245bb4;
+  transform: scale(1.1);
+}
+
+.Logo {
+  border-radius: 20%;
+  transition: all 0.5s ease-in-out;
+}
+
+.Logo:hover {
+  transform: translateY(-80%);
+}
+
+.mail {
+  color: white;
+}
+
+.title is-1 {
+  font-size: 100px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}

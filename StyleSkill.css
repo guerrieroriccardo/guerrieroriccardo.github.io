@@ -1,0 +1,21 @@
+* {
+  font-family: "Bitter", serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.triangle {
+  width: 99vw;
+  height: 200vh;
+  background: linear-gradient(
+    to bottom right,
+    #fff 0%,
+    #fff 49%,
+    #3381ff 49.5%,
+    #3381ff 100%
+  );
+}
+.skill {
+  width: 150vw;
+  color: black;
+}
